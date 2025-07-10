@@ -1,6 +1,6 @@
 package utils;
 
-import static vn.vietinbank.efast.utils.EnvironmentConfig.env_var;
+import static utils.EnvironmentConfig.env_var;
 
 import java.util.List;
 
