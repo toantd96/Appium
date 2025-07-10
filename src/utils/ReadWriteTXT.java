@@ -14,10 +14,6 @@ import java.util.ArrayList;
 import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import vn.vietinbank.efast.base.BaseScreen;
-import vn.vietinbank.efast.screens.api.Login;
-import vn.vietinbank.efast.utils.component.DataObject;
-import vn.vietinbank.efast.utils.component.DataObject.TRANS;
 
 public class ReadWriteTXT {
   private static final Logger log = LoggerFactory.getLogger(ReadWriteTXT.class);
