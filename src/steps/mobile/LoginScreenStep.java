@@ -2,12 +2,12 @@ package steps.mobile;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
-import vn.vietinbank.efast.screens.mobile.HomeScreen;
-import vn.vietinbank.efast.screens.mobile.LoginScreen;
-import vn.vietinbank.efast.screens.mobile.deposit.DepositMakerScreen;
-import vn.vietinbank.efast.steps.BaseSteps;
+import screens.mobile.HomeScreen;
+import screens.mobile.LoginScreen;
+import screens.mobile.deposit.DepositMakerScreen;
+import steps.BaseSteps;
 
-import static vn.vietinbank.efast.steps.BaseSteps.appiumDriver;
+import static steps.BaseSteps.appiumDriver;
 
 public class LoginScreenStep {
   LoginScreen loginScreen = new LoginScreen(appiumDriver);
