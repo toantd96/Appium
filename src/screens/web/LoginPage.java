@@ -1,7 +1,7 @@
 package screens.web;
 
 import net.serenitybdd.annotations.Step;
-import vn.vietinbank.efast.base.BasePage;
+import base.BasePage;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.ClickStrategy;
