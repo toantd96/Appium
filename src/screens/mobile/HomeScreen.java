@@ -8,8 +8,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import vn.vietinbank.efast.base.BaseScreen;
-import vn.vietinbank.efast.base.ScrollDirection;
+import base.BaseScreen;
+import base.ScrollDirection;
 
 public class HomeScreen extends BaseScreen {
 
