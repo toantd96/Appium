@@ -7,10 +7,9 @@ import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import vn.vietinbank.efast.base.BasePage;
-import vn.vietinbank.efast.screens.web.newefast.payment.AutoDebit;
-import vn.vietinbank.efast.utils.component.ApproveTransaction;
-import vn.vietinbank.efast.utils.component.TransferMoney;
+import base.BasePage;
+import utils.component.ApproveTransaction;
+import utils.component.TransferMoney;
 
 public class Transfers extends BasePage {
   @FindBy(xpath = "//div[@class='col-xl-6 col-xxl-6']//div[@class='input-group']//input")
