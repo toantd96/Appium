@@ -15,12 +15,12 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import net.serenitybdd.annotations.Steps;
 import org.openqa.selenium.chrome.ChromeOptions;
-import vn.vietinbank.efast.base.BasePage;
-import vn.vietinbank.efast.base.BaseScreen;
-import vn.vietinbank.efast.utils.Constant;
-import vn.vietinbank.efast.utils.OTPHelper;
-import vn.vietinbank.efast.utils.driver.DriverHelper;
-import vn.vietinbank.efast.utils.driver.SetupDriverMobile;
+import base.BasePage;
+import base.BaseScreen;
+import utils.Constant;
+import utils.OTPHelper;
+import utils.driver.DriverHelper;
+import utils.driver.SetupDriverMobile;
 
 public class BaseSteps {
 
