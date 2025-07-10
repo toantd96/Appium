@@ -15,8 +15,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.useDriver;
-import static vn.vietinbank.efast.utils.EnvironmentConfig.*;
-import static vn.vietinbank.efast.utils.ExcelHelper.sheetPathDownload;
+import static utils.EnvironmentConfig.*;
+import static utils.ExcelHelper.sheetPathDownload;
 
 public class DriverHelper {
 
