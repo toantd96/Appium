@@ -1,10 +1,8 @@
 package steps.mobile.approve_transaction_checker;
 
 import io.cucumber.java.en.And;
-import vn.vietinbank.efast.screens.mobile.approve_transaction_checker.Transfers;
 
-import static vn.vietinbank.efast.screens.mobile.transfer_money.InterBankTransfer.idTransaction;
-import static vn.vietinbank.efast.steps.BaseSteps.appiumDriver;
+import static BaseSteps.appiumDriver;
 
 public class TransferStep {
   Transfers transfers = new Transfers(appiumDriver);
