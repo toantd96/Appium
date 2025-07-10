@@ -18,9 +18,9 @@ import net.serenitybdd.model.environment.EnvironmentSpecificConfiguration;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import vn.vietinbank.efast.utils.Constant;
-import vn.vietinbank.efast.utils.DataInputHelper;
-import vn.vietinbank.efast.utils.EnvironmentConfig;
+import utils.Constant;
+import utils.DataInputHelper;
+import utils.EnvironmentConfig;
 
 public class SetupDriverMobile {
 
