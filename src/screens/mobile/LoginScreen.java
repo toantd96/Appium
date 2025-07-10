@@ -3,7 +3,7 @@ package screens.mobile;
 import io.appium.java_client.AppiumDriver;
 import net.thucydides.core.annotations.findby.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import vn.vietinbank.efast.base.BaseScreen;
+import base.BaseScreen;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.WebElement;
