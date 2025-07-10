@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import net.serenitybdd.rest.SerenityRest;
-import vn.vietinbank.efast.utils.RSAUtil;
+import utils.RSAUtil;
 
 import java.io.File;
 import java.io.IOException;
