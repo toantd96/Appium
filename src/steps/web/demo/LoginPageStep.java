@@ -9,10 +9,10 @@ import net.serenitybdd.annotations.Steps;
 import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.SerenityReports;
 import screens.web.LoginPage;
-import vn.vietinbank.efast.utils.Constant;
-import vn.vietinbank.efast.utils.DataInputHelper;
+import utils.Constant;
+import utils.DataInputHelper;
 
-import static vn.vietinbank.efast.utils.EnvironmentConfig.*;
+import static utils.EnvironmentConfig.*;
 
 public class LoginPageStep {
 
