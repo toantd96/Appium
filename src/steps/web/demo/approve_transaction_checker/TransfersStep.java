@@ -1,4 +1,4 @@
-package vn.vietinbank.efast.steps.web.newefast.approve_transaction_checker;
+package steps.web.newefast.approve_transaction_checker;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
@@ -6,9 +6,6 @@ import io.cucumber.java.en.Then;
 import net.serenitybdd.annotations.Steps;
 import org.junit.Assert;
 import screens.web.approve_transaction_checker.Transfers;
-import vn.vietinbank.efast.screens.web.newefast.transfer_money.interbank_transfer.BulkTransfer;
-import vn.vietinbank.efast.screens.web.newefast.transfer_money.interbank_transfer.InterbankTransfer;
-import vn.vietinbank.efast.steps.web.newefast.transfer_money.TransferMoneyStep;
 
 public class TransfersStep {
   @Steps Transfers transfers;
