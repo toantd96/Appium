@@ -38,12 +38,12 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.WheelInput;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
-import vn.vietinbank.efast.utils.LogHelper;
-import vn.vietinbank.efast.utils.ReadWriteTXT;
-import vn.vietinbank.efast.utils.ReportPortalHelper;
-import vn.vietinbank.efast.utils.RobotHelper;
-import vn.vietinbank.efast.utils.component.DataObject;
-import vn.vietinbank.efast.utils.component.DataObject.TRANS;
+import utils.LogHelper;
+import utils.ReadWriteTXT;
+import utils.ReportPortalHelper;
+import utils.RobotHelper;
+import utils.component.DataObject;
+import utils.component.DataObject.TRANS;
 
 public class BasePage extends PageObject {
     public static WebDriver webDriver;
