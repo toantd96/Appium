@@ -1,10 +1,10 @@
 package steps.mobile;
 
 import io.cucumber.java.en.When;
-import vn.vietinbank.efast.screens.mobile.HomeScreen;
-import vn.vietinbank.efast.screens.mobile.LoginScreen;
+import screens.mobile.HomeScreen;
+import screens.mobile.LoginScreen;
 
-import static vn.vietinbank.efast.steps.BaseSteps.appiumDriver;
+import static BaseSteps.appiumDriver;
 
 public class HomeScreenStep {
   HomeScreen homeScreen = new HomeScreen(appiumDriver);
